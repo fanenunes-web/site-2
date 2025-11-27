@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
-import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import VideoFeed from './components/VideoFeed';
-import Columnists from './components/Columnists';
-import AwardsSection from './components/AwardsSection';
-import StudioSection from './components/StudioSection';
-import MerchStore from './components/MerchStore';
-import Footer from './components/Footer';
-import Preloader from './components/Preloader';
+import Navigation from './Components/Navigation';
+import Hero from './Components/Hero';
+import VideoFeed from './Components/VideoFeed';
+import Columnists from './Components/Columnists';
+import AwardsSection from './Components/AwardsSection';
+import StudioSection from './Components/StudioSection';
+import MerchStore from './Components/MerchStore';
+import Footer from './Components/Footer';
+import Preloader from './Components/Preloader';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
